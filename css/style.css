@@ -1,0 +1,119 @@
+body {
+    background: #fff6ee;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: relative;
+    color: rgba(0, 0, 0, 0.88);
+    font-family: AlmarenaDisplayBold, sans-serif;
+    /* color: rgb(131, 185, 181); */
+
+
+
+}
+
+.primary {
+    color: rgb(106, 111, 245) !important;
+}
+
+.rights {
+    font-size: .875rem;
+    font-family: Almarena, sans-serif;
+    line-height: 30px;
+    letter-spacing: -.01rem;
+    color: #aaa;
+}
+
+.cent {
+    text-align: center;
+    /* margin: auto; */
+}
+
+.half-width {
+    width: 50%;
+
+}
+
+.wrap {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.wrapImg {
+    width: 460px;
+
+    display: inline-flex;
+    clear: left;
+    /* height:25px;
+    margin-top:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin-left:20px; */
+
+
+
+}
+
+
+.btn {
+    background-color: rgb(106, 111, 245) !important;
+    border: none;
+
+    color: #FFFFFF;
+}
+
+.for-indivi {
+    font-family: AlmarenaDisplayBold, sans-serif;
+    font-size: 3.1875rem;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+.start-bene {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(115, 115, 115, 1);
+    width: 460px;
+    height: 75px;
+}
+
+.bg {
+    background-color: white;
+    /* padding: 58px; */
+    width: 50%;
+    height: 100vh;
+    padding: 35px 65px;
+    overflow-y: auto;
+
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(240, 240, 240, 1);
+    border-radius: 2px;
+}
+
+input:focus,
+input:focus-visible,
+input:active {
+    border: 2px solid rgba(46, 196, 182, 1);
+
+}
+
+@media only screen and (max-width: 600px) {
+    .wrap {
+        display: block;
+    }
+}
